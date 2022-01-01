@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Glory', sans-serif;
+}
+
+html, body {
+    margin: 0;
+}
+
+body {
+    background-color: #363636;
+    color: #fff;
+    text-align: center;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.popup {
+    width: 30%;
+    height: auto;
+    padding: 10px;
+    margin: auto;
+    background-color: #4e4e4e;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    z-index: 5;
+}
+
+.popup h1 {
+    margin: 0;
+}
+.popup img {
+    border-radius: 50%;
+    border: 8px solid #ffffff;
+    background-color: rgba(0,0,0,0.2);
+}
+
+.popup .btns {
+    display: flex;
+    justify-content: space-evenly;
+}
+button {
+    background-color: #ff6dce;
+    padding: 10px;
+    border: none;
+    box-shadow: 0 0 9px 0 rgba(0,0,0,0.2);
+    font-size: 1.3em;
+    cursor: pointer;
+}
+
+.popup button.notNow {
+    background-color: transparent;
+    box-shadow: none;
+    padding: 0;
+    color: #fff;
+}
+
+.popup button.X {
+    background-color: red;
+    box-shadow: none;
+    padding: 0;
+    color: #fff;
+    font-size: 2;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    top: 0;
+    right: 0;
+    position: absolute;
+    margin-top: -20px;
+    margin-right: -20px;
+}
+
+.nav {
+    background-color: #4e4e4e;
+    box-shadow: 0 0 9px 0 rgba(0,0,0,0.2);
+    padding: 10px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.nav * {
+    margin-left: 10px;
+}
+
+.nav img {
+    height: 100%;
+}
+
+.nav .searchBox {
+    display: flex;
+}
+
+.nav input {
+    padding: 10px;
+    margin-left: 0;
+    font-size: 1.2em;
+    width: 100%;
+}
+
+.nav button {
+    background-color: #ff6dce;
+    border: none;
+    font-size: 1.2em;
+    margin-left: 0;
+}
+
+.nav .explore {
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+}
+
+main section .row {
+    display: grid;
+    grid-column-gap: 50px;
+    grid-template-columns: auto auto auto;
+}
+
+main section .column {
+    padding: 10px;
+    border: 2px solid #ffffff;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2); 
+    transition: 0.5s cubic-bezier(0.165, 2, 0.44, 1);
+    margin-top: 20px;
+}
+
+
+main section .column:hover{
+    transform: scale(1.06);
+}
+
+main section.popular .column {
+    background-color: #ff6dce;
+}
+
+main section.featured .column {
+    background-color: #6d9bff;
+}
+
+main section .column img {
+    background-color: #ffffff;
+    padding: 5px;
+}
+
+
+main section .column *{
+    margin: 0;
+}
+
+
+main section .column h6 {
+    font-size: 0.9em;
+}
+
+.content {
+    padding: 10px;
+    border: 5px solid #ffffff;
+    margin: auto;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.8);
+    width: 50%;
+    margin-top: 10px;
+}
+
+.content a {
+    color: #ff6dce;
+}
+
+.content img {
+    border: 5px solid #ffffff;
+    border-radius: 50%;
+    transition-duration: 0.2s;
+}
+
+.content img:hover {
+    background-color: #000;
+}
+
+.content button {
+    width: 100%;
+}
+
+.stats {
+    width: 100%;
+    margin: auto;
+    text-align: start;
+    padding: 10px;
+}
+
+.stats h4 {
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+.stats span {
+    font-weight: 400;
+}
+
+.creds {
+    font-size: 1.6em;
+}
+
+
+.allContent .column {
+    width: 80%;
+    background-color: #363636 !important;
+    border: none;
+    box-shadow: none;
+    border-bottom: 2px solid #fff;
+}
+
+.allContent .column:hover {
+    transform: none;
+}
+
+.allContent .column a {
+    display: flex;
+}
+
+.allContent .column img {
+    margin-right: 10px;
+}
+
+.allContent .column .info {
+    text-align: start;
+}
+
+.allContent .column .info p{
+    font-size: 1.3em;
+}
+
+.allContent .column h6 {
+    font-size: 1em;
+}
+
+footer img {
+    height: 30px;
+    width: 30px;
+}
+
+@media screen and (max-width: 800px) {
+    .popup {
+        width: 80%;
+    }
+
+    .nav {
+        clear: both;
+        display: flex;
+    }
+
+    .nav * {
+        margin-left: 0;
+    }
+
+    .explore {
+        background-color: #4e4e4e;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between; 
+        font-size: 1.12em;
+    }
+
+
+    main section .row {
+        display: block;
+    }
+
+    main section .column {
+        width: 100%;
+
+    }
+
+    .content {
+        width: 100%;
+    }
+}
