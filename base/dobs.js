@@ -48,6 +48,12 @@ popular = {
         image: "../images/Rawblocky.png",
         link: "../robloxians/Rawblocky.html"
     },
+    JavaCreates: {
+        name: "JavaCreates",
+        title: "Animator",
+        image: "../images/JavaCreates.png",
+        link: "../robloxians/JavaCreates.html"
+    },
     firstimpacts: {
         name: "firstimpacts",
         title: "TikToker",
@@ -105,6 +111,12 @@ popularAll = {
         title: "Game Dev",
         image: "images/Rawblocky.png",
         link: "robloxians/Rawblocky.html"
+    },
+    JavaCreates: {
+        name: "JavaCreates",
+        title: "Animator",
+        image: "images/JavaCreates.png",
+        link: "robloxians/JavaCreates.html"
     },
     firstimpacts: {
         name: "firstimpacts",
