@@ -46,6 +46,30 @@ all = {
         image: "images/Rawblocky.png",
         link: "robloxians/Rawblocky.html"
     },
+    JavaCreates: {
+        name: "JavaCreates",
+        title: "Animator",
+        image: "../images/JavaCreates.png",
+        link: "../robloxians/JavaCreates.html"
+    },
+    firstimpacts: {
+        name: "firstimpacts",
+        title: "TikToker",
+        image: "../images/firstimpacts.png",
+        link: "../robloxians/firstimpacts.html"
+    },
+    MyUsernamesThis: {
+        name: "MyUsernamesThis",
+        title: "YouTuber",
+        image: "../images/MyUsernamesThis.png",
+        link: "../robloxians/MyUsernamesThis.html"
+    },
+    KonekoKitten: {
+        name: "KonekoKitten",
+        title: "YouTuber",
+        image: "../images/KonekoKittenWasTaken.png",
+        link: "../robloxians/KonekoKitten.html"
+    },
     SCR1PP3D: {
         name: "SCR1PP3D",
         title: "Software Developer",
