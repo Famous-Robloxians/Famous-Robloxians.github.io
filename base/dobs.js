@@ -12,6 +12,12 @@ popular = {
         image: "../images/lisagaming_yt.png",
         link: "../robloxians/lisagaming_YT.html"
     },
+    Roblox_RTC: {
+        name: "Roblox_RTC",
+        title: "Journalists",
+        image: "../images/RTCRobloxTwitter.png",
+        link: "../robloxians/Roblox_RTC.html"
+    },
     MyUsernamesThis: {
         name: "MyUsernamesThis",
         title: "YouTuber",
@@ -87,6 +93,12 @@ popularAll = {
         title: "YouTuber",
         image: "images/lisagaming_yt.png",
         link: "robloxians/lisagaming_YT.html"
+    },
+    Roblox_RTC: {
+        name: "Roblox_RTC",
+        title: "Journalists",
+        image: "images/RTCRobloxTwitter.png",
+        link: "robloxians/Roblox_RTC.html"
     },
     MyUsernamesThis: {
         name: "MyUsernamesThis",

@@ -82,6 +82,12 @@ all = {
         image: "../images/Cinderbelle.png",
         link: "../robloxians/Cinderbelle.html"
     },
+    Roblox_RTC: {
+        name: "Roblox_RTC",
+        title: "Journalists",
+        image: "../images/RTCRobloxTwitter.png",
+        link: "../robloxians/Roblox_RTC.html"
+    },
     SCR1PP3D: {
         name: "SCR1PP3D",
         title: "Software Developer",
