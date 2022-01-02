@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Glory:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 
 * {
     box-sizing: border-box;
-    font-family: 'Glory', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
 
 html, body {
@@ -10,13 +10,13 @@ html, body {
 }
 
 body {
-    background-color: #363636;
-    color: #fff;
+    background-color: #fafafa;
+    color: #000;
     text-align: center;
 }
 
 a {
-    color: #fff;
+    color: #000;
     text-decoration: none;
 }
 
@@ -25,13 +25,14 @@ a {
     height: auto;
     padding: 10px;
     margin: auto;
-    background-color: #4e4e4e;
+    background-color: #ffffff;
     position: absolute;
     transform: translate(-50%, -50%);
     left: 50%;
     top: 50%;
     box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
     z-index: 5;
+    border-radius: 20px;
 }
 
 .popup h1 {
@@ -80,17 +81,17 @@ button {
 }
 
 .nav {
-    background-color: #4e4e4e;
+    background-color: #ffffff;
     box-shadow: 0 0 9px 0 rgba(0,0,0,0.2);
     padding: 10px;
-    height: 120px;
     display: flex;
     align-items: center;
-    position: relative;
+    position: sticky;
 }
 
 .nav * {
     margin-left: 10px;
+    color: #000;
 }
 
 .nav img {
@@ -119,6 +120,10 @@ button {
     position: absolute;
     right: 0;
     margin-right: 10px;
+}
+
+main {
+    padding: 20px;
 }
 
 main section .row {
@@ -165,9 +170,10 @@ main section .column h6 {
 
 .content {
     padding: 10px;
+    background-color: #fff;
     border: 5px solid #ffffff;
     margin: auto;
-    box-shadow: 0 0 20px 0 rgba(0,0,0,0.8);
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
     width: 50%;
     margin-top: 10px;
 }
@@ -180,6 +186,7 @@ main section .column h6 {
     border: 5px solid #ffffff;
     border-radius: 50%;
     transition-duration: 0.2s;
+    box-shadow:  0 0 20px 0 rgba(0,0,0,0.2);
 }
 
 .content img:hover {
@@ -213,10 +220,10 @@ main section .column h6 {
 
 .allContent .column {
     width: 80%;
-    background-color: #363636 !important;
+    background-color: #fafafa !important;
     border: none;
     box-shadow: none;
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #000;
 }
 
 .allContent .column:hover {
@@ -248,6 +255,10 @@ footer img {
     width: 30px;
 }
 
+footer {
+    color: #000;
+}
+
 @media screen and (max-width: 800px) {
     .popup {
         width: 80%;
@@ -256,6 +267,7 @@ footer img {
     .nav {
         clear: both;
         display: flex;
+        padding-bottom: 30px;
     }
 
     .nav * {
@@ -263,13 +275,12 @@ footer img {
     }
 
     .explore {
-        background-color: #4e4e4e;
-        bottom: 0;
+        bottom: 0px;
         left: 0;
         width: 100%;
         padding: 10px;
         display: flex;
-        justify-content: space-between; 
+        justify-content: space-between;
         font-size: 1.12em;
     }
 
