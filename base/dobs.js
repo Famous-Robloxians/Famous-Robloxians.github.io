@@ -24,6 +24,12 @@ popular = {
         image: "../images/KonekoKittenWasTaken.png",
         link: "../robloxians/KonekoKitten.html"
     },
+    Mr_Booshot: {
+        name: "Mr_Booshot",
+        title: "YouTuber",
+        image: "../images/Mr_Booshot.png",
+        link: "../robloxians/Mr_Booshot.html"
+    },
     Ammar_Hazem: {
         name: "Ammar_Hanzem",
         title: "Roblox Dev",
@@ -87,6 +93,12 @@ popularAll = {
         title: "YouTuber",
         image: "images/KonekoKittenWasTaken.png",
         link: "robloxians/KonekoKitten.html"
+    },
+    Mr_Booshot: {
+        name: "Mr_Booshot",
+        title: "YouTuber",
+        image: "images/Mr_Booshot.png",
+        link: "robloxians/Mr_Booshot.html"
     },
     Ammar_Hazem: {
         name: "Ammar_Hanzem",
