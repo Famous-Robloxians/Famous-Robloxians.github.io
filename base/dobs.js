@@ -47,6 +47,12 @@ popular = {
         image: "../images/Ammar_Hazem.png",
         link: "../robloxians/Ammar_Hazem.html"
     },
+    firstimpacts: {
+        name: "firstimpacts",
+        title: "TikToker",
+        image: "../images/firstimpacts.png",
+        link: "../robloxians/firstimpacts.html"
+    },
     NewFissy: {
         name: "NewFissy",
         title: "Game Dev",
@@ -70,14 +76,7 @@ popular = {
         title: "Animator",
         image: "../images/JavaCreates.png",
         link: "../robloxians/JavaCreates.html"
-    },
-    firstimpacts: {
-        name: "firstimpacts",
-        title: "TikToker",
-        image: "../images/firstimpacts.png",
-        link: "../robloxians/firstimpacts.html"
     }
-    
 }
 
 popularAll = {
@@ -129,6 +128,12 @@ popularAll = {
         image: "images/Ammar_Hazem.png",
         link: "robloxians/Ammar_Hazem.html"
     },
+    firstimpacts: {
+        name: "firstimpacts",
+        title: "TikToker",
+        image: "images/firstimpacts.png",
+        link: "robloxians/firstimpacts.html"
+    },
     NewFissy: {
         name: "NewFissy",
         title: "Game Dev",
@@ -152,14 +157,7 @@ popularAll = {
         title: "Animator",
         image: "images/JavaCreates.png",
         link: "robloxians/JavaCreates.html"
-    },
-    firstimpacts: {
-        name: "firstimpacts",
-        title: "TikToker",
-        image: "images/firstimpacts.png",
-        link: "robloxians/firstimpacts.html"
     }
-    
 }
 
 featuredAll = {
