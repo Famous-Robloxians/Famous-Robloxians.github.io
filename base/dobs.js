@@ -24,6 +24,12 @@ popular = {
         image: "../images/KonekoKittenWasTaken.png",
         link: "../robloxians/KonekoKitten.html"
     },
+    Cinderbelle: {
+        name: "Cinderbelle",
+        title: "YouTuber",
+        image: "../images/Cinderbelle.png",
+        link: "../robloxians/Cinderbelle.html"
+    },
     Mr_Booshot: {
         name: "Mr_Booshot",
         title: "YouTuber",
@@ -93,6 +99,12 @@ popularAll = {
         title: "YouTuber",
         image: "images/KonekoKittenWasTaken.png",
         link: "robloxians/KonekoKitten.html"
+    },
+    Cinderbelle: {
+        name: "Cinderbelle",
+        title: "YouTuber",
+        image: "images/Cinderbelle.png",
+        link: "robloxians/Cinderbelle.html"
     },
     Mr_Booshot: {
         name: "Mr_Booshot",

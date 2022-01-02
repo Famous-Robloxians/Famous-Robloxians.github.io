@@ -76,6 +76,12 @@ all = {
         image: "../images/Mr_Booshot.png",
         link: "../robloxians/Mr_Booshot.html"
     },
+    Cinderbelle: {
+        name: "Cinderbelle",
+        title: "YouTuber",
+        image: "../images/Cinderbelle.png",
+        link: "../robloxians/Cinderbelle.html"
+    },
     SCR1PP3D: {
         name: "SCR1PP3D",
         title: "Software Developer",
