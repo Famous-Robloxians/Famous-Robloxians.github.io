@@ -35,6 +35,10 @@ a {
     border-radius: 20px;
 }
 
+.popup p {
+    color: #000;
+}
+
 .popup h1 {
     margin: 0;
 }
@@ -48,20 +52,27 @@ a {
     display: flex;
     justify-content: space-evenly;
 }
+
+.popup button {
+    border: 2px solid #cf9dff;
+    border-radius: 5px;
+}
 button {
-    background-color: #ff6dce;
+    background-color: #fff;
     padding: 10px;
     border: none;
     box-shadow: 0 0 9px 0 rgba(0,0,0,0.2);
     font-size: 1.3em;
     cursor: pointer;
+    color: #000;
 }
 
 .popup button.notNow {
     background-color: transparent;
     box-shadow: none;
     padding: 0;
-    color: #fff;
+    color: rgb(0, 0, 0);
+    border: none;
 }
 
 .popup button.X {
@@ -107,13 +118,20 @@ button {
     margin-left: 0;
     font-size: 1.2em;
     width: 100%;
+    border: 1.4px solid #c4c4c4;
+    box-shadow: 0 0 2px 0 rgba(0,0,0,0.2);
+    border-radius: 13px;
+    outline: none;
 }
 
 .nav button {
-    background-color: #ff6dce;
-    border: none;
+    background-color: #fff;
     font-size: 1.2em;
     margin-left: 0;
+    border: 1px solid #000;
+    box-shadow: none;
+    border-radius: 13px;
+    margin-left: 10px;
 }
 
 .nav .explore {
@@ -123,34 +141,40 @@ button {
 }
 
 main {
-    padding: 20px;
+    padding: 20px 110px;
 }
 
 main section .row {
     display: grid;
     grid-column-gap: 50px;
     grid-template-columns: auto auto auto;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
 }
 
 main section .column {
     padding: 10px;
     border: 2px solid #ffffff;
-    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2); 
+    box-shadow: 0 0 10px 0 rgb(176 80 255 / 20%);
     transition: 0.5s cubic-bezier(0.165, 2, 0.44, 1);
     margin-top: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 260px;
 }
 
 
 main section .column:hover{
-    transform: scale(1.06);
+    transform: scale(1.04);
 }
 
 main section.popular .column {
-    background-color: #ff6dce;
+    border:1px solid #ff6dce;
 }
 
 main section.featured .column {
-    background-color: #6d9bff;
+    border: 1px solid #6d9bff;
 }
 
 main section .column img {

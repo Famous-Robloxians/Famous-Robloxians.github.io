@@ -49,44 +49,44 @@ all = {
     JavaCreates: {
         name: "JavaCreates",
         title: "Animator",
-        image: "../images/JavaCreates.png",
-        link: "../robloxians/JavaCreates.html"
+        image: "images/JavaCreates.png",
+        link: "robloxians/JavaCreates.html"
     },
     firstimpacts: {
         name: "firstimpacts",
         title: "TikToker",
-        image: "../images/firstimpacts.png",
-        link: "../robloxians/firstimpacts.html"
+        image: "images/firstimpacts.png",
+        link: "robloxians/firstimpacts.html"
     },
     MyUsernamesThis: {
         name: "MyUsernamesThis",
         title: "YouTuber",
-        image: "../images/MyUsernamesThis.png",
-        link: "../robloxians/MyUsernamesThis.html"
+        image: "images/MyUsernamesThis.png",
+        link: "robloxians/MyUsernamesThis.html"
     },
     KonekoKitten: {
         name: "KonekoKitten",
         title: "YouTuber",
-        image: "../images/KonekoKittenWasTaken.png",
-        link: "../robloxians/KonekoKitten.html"
+        image: "images/KonekoKittenWasTaken.png",
+        link: "robloxians/KonekoKitten.html"
     },
     Mr_Booshot: {
         name: "Mr_Booshot",
         title: "YouTuber",
-        image: "../images/Mr_Booshot.png",
-        link: "../robloxians/Mr_Booshot.html"
+        image: "images/Mr_Booshot.png",
+        link: "robloxians/Mr_Booshot.html"
     },
     Cinderbelle: {
         name: "Cinderbelle",
         title: "YouTuber",
-        image: "../images/Cinderbelle.png",
-        link: "../robloxians/Cinderbelle.html"
+        image: "images/Cinderbelle.png",
+        link: "robloxians/Cinderbelle.html"
     },
     Roblox_RTC: {
         name: "Roblox_RTC",
         title: "Journalists",
-        image: "../images/RTCRobloxTwitter.png",
-        link: "../robloxians/Roblox_RTC.html"
+        image: "images/RTCRobloxTwitter.png",
+        link: "robloxians/Roblox_RTC.html"
     },
     SCR1PP3D: {
         name: "SCR1PP3D",
@@ -94,11 +94,11 @@ all = {
         image: "icons/favicon.png",
         link: "featured/SCR1PP3D.html"
     },
-    wrekich: {
-        name: "wrekich",
+    wrekch: {
+        name: "wrekch",
         title: "Socialite/Actress/Director",
-        image: "images/wrekich.png",
-        link: "featured/wrekich.html"
+        image: "images/wrekch.png",
+        link: "featured/wrekch.html"
     },
     Ginevre: {
         name: "Ginevre",
@@ -179,3 +179,5 @@ for (i = 0; i < column.length; i++) {
         column[i].remove();
     }
 }
+
+document.getElementById('searchInput').value = searchTerm;
