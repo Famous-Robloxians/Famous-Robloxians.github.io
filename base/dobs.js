@@ -78,7 +78,7 @@ popular = {
         dob: "3/17/2012",
         rlink: "https://www.roblox.com/users/24883415/profile",
         bio: 'i5k became famous due to his amazing graphic designs on his <a href="https://twitter.com/rightIess" target="_blank" rel="noopener noreferrer">Twitter profile</a>. ',
-        boostlink: "https://www.roblox.com/library/8430904197/Favorite-this-to-boost-Mr-Booshot"
+        boostlink: "https://www.roblox.com/library/8677312504/Favorite-this-to-boost-i5k"
     },
     Ammar_Hazem: {
         name: "Ammar_Hanzem",
