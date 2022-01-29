@@ -13,6 +13,7 @@ body {
     background-color: #fafafa;
     color: #000;
     text-align: center;
+    padding-top: 100px;
 }
 
 a {
@@ -97,7 +98,10 @@ button {
     padding: 10px;
     display: flex;
     align-items: center;
-    position: sticky;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
 }
 
 .nav * {
@@ -141,7 +145,7 @@ button {
 }
 
 main {
-    padding: 20px 110px;
+    padding: 0px 110px;
 }
 
 main section .row {
@@ -292,6 +296,7 @@ footer {
         clear: both;
         display: flex;
         padding-bottom: 30px;
+        position: absolute;
     }
 
     .nav * {
@@ -308,6 +313,9 @@ footer {
         font-size: 1.12em;
     }
 
+    main {
+        padding: 10px;
+    }
 
     main section .row {
         display: block;
