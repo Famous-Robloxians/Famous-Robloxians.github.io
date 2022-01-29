@@ -72,7 +72,7 @@ popular = {
     },
     i5k: {
         name: "i5k",
-        title: "YouTuber",
+        title: "Graphic Designer",
         image: "../images/i5k.png",
         link: "../robloxians/i5k.html",
         dob: "3/17/2012",
