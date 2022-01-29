@@ -70,6 +70,16 @@ popular = {
         bio: 'Mr_Booshot became famous due to his comedic roblox videos on his <a href="https://www.youtube.com/c/Mr_Booshot/" target="_blank" rel="noopener noreferrer">YouTube channel</a> . ',
         boostlink: "https://www.roblox.com/library/8430904197/Favorite-this-to-boost-Mr-Booshot"
     },
+    i5k: {
+        name: "i5k",
+        title: "YouTuber",
+        image: "../images/i5k.png",
+        link: "../robloxians/i5k.html",
+        dob: "3/17/2012",
+        rlink: "https://www.roblox.com/users/24883415/profile",
+        bio: 'i5k became famous due to his amazing graphic designs on his <a href="https://twitter.com/rightIess" target="_blank" rel="noopener noreferrer">Twitter profile</a>. ',
+        boostlink: "https://www.roblox.com/library/8430904197/Favorite-this-to-boost-Mr-Booshot"
+    },
     Ammar_Hazem: {
         name: "Ammar_Hanzem",
         title: "Roblox Dev",
