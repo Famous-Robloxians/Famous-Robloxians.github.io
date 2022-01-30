@@ -80,6 +80,16 @@ popular = {
         bio: 'i5k became famous due to his amazing graphic designs on his <a href="https://twitter.com/rightIess" target="_blank" rel="noopener noreferrer">Twitter profile</a>. ',
         boostlink: "https://www.roblox.com/library/8677312504/Favorite-this-to-boost-i5k"
     },
+    Coble3D: {
+        name: "Coble3D",
+        title: "UI/UX Designer",
+        image: "../images/Coble3D.png",
+        link: "../robloxians/Coble3D.html",
+        dob: "5/4/2018",
+        rlink: "https://www.roblox.com/users/593311182/profile",
+        bio: 'Coble3D became famous for being a talented Modeler, Programmer and UI/UX Designer, he posts his <a href="https://twitter.com/Coble3D" target="_blank" rel="noopener noreferrer">Twitter profile</a> with over 12K followers. ',
+        boostlink: "https://www.roblox.com/library/8681677738/Favorite-this-to-boost-Coble3D"
+    },
     Ammar_Hazem: {
         name: "Ammar_Hanzem",
         title: "Roblox Dev",
