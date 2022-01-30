@@ -150,7 +150,6 @@ main {
 
 main section .row {
     display: grid;
-    grid-column-gap: 50px;
     grid-template-columns: auto auto auto;
     justify-items: center;
     align-items: center;
