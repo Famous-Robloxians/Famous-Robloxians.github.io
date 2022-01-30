@@ -46,6 +46,12 @@ all = {
         image: "images/Rawblocky.png",
         link: "robloxians/Rawblocky.html"
     },
+    Coble3D: {
+        name: "Coble3D",
+        title: "UI/UX Designer",
+        image: "images/Coble3D.png",
+        link: "robloxians/Coble3D.html"
+    },
     i5k: {
         name: "i5k",
         title: "Graphic Designer",
