@@ -22,6 +22,12 @@ all = {
         image: "images/lisagaming_yt.png",
         link: "robloxians/lisagaming_YT.html"
     },
+    Funnehcake: {
+        name: "Funnehcake",
+        title: "YouTuber",
+        image: "images/Funnehcake.png",
+        link: "robloxians/Funnehcake.html",
+    },
     mrflimflam: {
         name: "mrflimflam",
         title: "YouTuber",
@@ -124,17 +130,23 @@ all = {
         image: "images/lilacgamingrblx.png",
         link: "featured/lilacgamingrblx.html"
     },
-    VictoriaCatMilo04: {
-        name: "VictoriaCatMilo04",
-        title: "Robloxian",
-        image: "images/VictoriaCatMilo04.png",
-        link: "featured/VictoriaCatMilo04.html"
-    },
     QuinnGamingRBLX_alt: {
         name: "QuinnGamingRBLX_alt",
         title: "YouTuber",
         image: "images/QuinnGamingRBLX_alt.png",
         link: "featured/QuinnGamingRBLX_alt.html"
+    },
+    Bossplayz93: {
+        name: "Bossplayz93",
+        title: "GFX Designer",
+        image: "images/Bossplayz93.png",
+        link: "featured/Bossplayz93.html",
+    },
+    valphex: {
+        name: "valphex",
+        title: "Game Dev",
+        image: "images/valphex.png",
+        link: "featured/valphex.html",
     },
 }
 

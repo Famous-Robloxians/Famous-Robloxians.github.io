@@ -10,6 +10,16 @@ popular = {
         boostlink: "https://www.roblox.com/library/7402348614/Favorite-this-to-boost-lisagaming-YT"
     
     },
+    Funnehcake: {
+        name: "Funnehcake",
+        title: "YouTuber",
+        image: "../images/Funnehcake.png",
+        link: "../robloxians/Funnehcake.html",
+        dob: "7/6/2016",
+        rlink: "https://www.roblox.com/users/141039383/profile",
+        bio: 'Funnehcake became famous for her <a href="https://youtube.com/user/itsfunneh" target="_blank" rel="noopener noreferrer">YouTube channel</a> (where she goes by the name ItsFunneh) which has over 8M+ subscribers.', 
+        boostlink: "https://www.roblox.com/library/8734976046/Favorite-this-to-boost-Funnehcake"
+    },
     mrflimflam: {
         name: "mrflimflam",
         title: "YouTuber",
@@ -60,6 +70,16 @@ popular = {
         bio: 'Cinderbelle became famous due to her <a href="https://www.youtube.com/c/IBellaYT/" target="_blank" rel="noopener noreferrer">YouTube channel</a> . where she posts funny videos.',
         boostlink: "https://www.roblox.com/catalog/8431257630/Favorite-this-to-boost-Cinderbelle"
     },
+    Ammar_Hazem: {
+        name: "Ammar_Hanzem",
+        title: "Roblox Dev",
+        image: "../images/Ammar_Hazem.png",
+        link: "../robloxians/Ammar_Hazem.html",
+        dob: "12/12/2020",
+        rlink: "https://www.roblox.com/users/2209137140/profile",
+        bio: "Ammar_Hazem became famous after getting over 8 million place visits on his <a href=\"https://www.roblox.com/users/2209137140/profile\" target=\"_blank\" rel=\"noopener noreferrer\">Roblox Account</a> that also has over 10k followers.", 
+        boostlink: "https://www.roblox.com/library/7418135368/Favorite-this-to-boost-Ammar-Hazem"
+    },
     Mr_Booshot: {
         name: "Mr_Booshot",
         title: "YouTuber",
@@ -90,16 +110,7 @@ popular = {
         bio: 'Coble3D became famous for being a talented Modeler, Programmer and UI/UX Designer, he posts his <a href="https://twitter.com/Coble3D" target="_blank" rel="noopener noreferrer">Twitter profile</a> with over 12K followers. ',
         boostlink: "https://www.roblox.com/library/8681677738/Favorite-this-to-boost-Coble3D"
     },
-    Ammar_Hazem: {
-        name: "Ammar_Hanzem",
-        title: "Roblox Dev",
-        image: "../images/Ammar_Hazem.png",
-        link: "../robloxians/Ammar_Hazem.html",
-        dob: "12/12/2020",
-        rlink: "https://www.roblox.com/users/2209137140/profile",
-        bio: "Ammar_Hazem became famous after getting over 8 million place visits on his <a href=\"https://www.roblox.com/users/2209137140/profile\" target=\"_blank\" rel=\"noopener noreferrer\">Roblox Account</a> that also has over 10k followers.", 
-        boostlink: "https://www.roblox.com/library/7418135368/Favorite-this-to-boost-Ammar-Hazem"
-    },
+    
     firstimpacts: {
         name: "firstimpacts",
         title: "TikToker",
@@ -163,6 +174,16 @@ featured = {
         bio: 'SCR1PP3D has been featured because she coded this website by herself and would love for you to support it. You can support the website by <a href="../credits.html" target="_blank" rel="noopener noreferrer">clicking here</a>.',
         boostlink: "https://www.roblox.com/library/7412278452/Favorite-this-to-boost-SCR1PP3D"
     },
+    valphex: {
+        name: "valphex",
+        title: "Game Dev",
+        image: "../images/valphex.png",
+        link: "../featured/valphex.html",
+        dob: "8/19/2020",
+        rlink: "https://www.roblox.com/users/25048901/profile",
+        bio: 'Builder for the largest SCP group with 439k+ members (Nova Corporation), builder for the popular football game names Football Universe, contributed to 370M+ visits, and currently building the new club for Club Iris',
+        boostlink: "https://www.roblox.com/library/8734930663/Favorite-this-to-boost-valphex"
+    },
     wrekch: {
         name: "wrekch",
         title: "Socialite/Actress/Director",
@@ -190,18 +211,18 @@ featured = {
         link: "../featured/lilacgamingrblx.html",
         dob: "11/16/2020",
         rlink: "https://www.roblox.com/users/2019614389/profile",
-        bio: 'lilacgamingrblx Lilac Gaming ROBLOX started her channel after her first video <a href="https://www.youtube.com/watch?v=IhlF1u7pAhU" target="_blank" rel="noopener noreferrer">“My intro”</a> was created, 9-10 months later and she has grown over 300 YouTube followers! ',
+        bio: 'Lilac Gaming ROBLOX started her channel after her first video <a href="https://www.youtube.com/watch?v=IhlF1u7pAhU" target="_blank" rel="noopener noreferrer">“My intro”</a> was created, 9-10 months later and she has grown over 300 YouTube followers! ',
         boostlink: "https://www.roblox.com/library/7414527377/Favorite-this-to-boost-lilacgamingrblx"
     },
-    VictoriaCatMilo04: {
-        name: "VictoriaCatMilo04",
-        title: "Robloxian",
-        image: "../images/VictoriaCatMilo04.png",
-        link: "../featured/VictoriaCatMilo04.html",
-        dob: "3/1/2018",
-        rlink: "https://www.roblox.com/users/533404111/profile",
-        bio: 'VictoriaCatMilo04 has been featured because she won a dance competition!',
-        boostlink: "https://www.roblox.com/library/7417483490/Favorite-this-to-boost-VictoriaCatMilo04"
+    Bossplayz93: {
+        name: "Bossplayz93",
+        title: "GFX Designer",
+        image: "../images/Bossplayz93.png",
+        link: "../featured/Bossplayz93.html",
+        dob: "3/20/2020",
+        rlink: "https://www.roblox.com/users/1516782279/profile",
+        bio: 'Bossplayz93 (also known as Bsev) has been featured for its amazing GFX designs. Check it out on its <a href="https://twitter.com/B_Slevv" target="_blank" rel="noopener noreferrer"> Twitter page</a>',
+        boostlink: "https://www.roblox.com/library/8734890673/Favorite-this-to-boost-Bossplayz93"
     },
     QuinnGamingRBLX_alt: {
         name: "QuinnGamingRBLX_alt",
@@ -215,6 +236,18 @@ featured = {
     },
 }
 
+
+function shuffle(array) {
+    let currentIndex = array.length,  randomIndex;
+    while (currentIndex != 0) {
+      randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex--;
+      [array[currentIndex], array[randomIndex]] = [
+        array[randomIndex], array[currentIndex]];
+    }
+  
+    return array;
+  }
 
 columnNum = 0;
 
@@ -249,8 +282,15 @@ else if (window.location.href.includes('featured.html')) {
 
 
 function add3() {
+    var pop3 = []
+    
     for (let i = 0; i < 3; i++) {
-        var val = Object.entries(popular)[i][1];
+        var newPop = shuffle(Object.entries(popular))[i]
+        pop3[i] = newPop;
+    }
+
+    pop3.forEach(user => {
+        var user = user[1]
         var column = document.createElement('div')
         column.classList.add('column')
     
@@ -259,18 +299,17 @@ function add3() {
         var Uname = document.createElement('p')
         var title = document.createElement('h5')
     
-        a.href = val.link
-        img.src = val.image
-        Uname.innerHTML = val.name
-        title.innerHTML = val.title
+        a.href = user.link
+        img.src = user.image
+        Uname.innerHTML = user.name
+        title.innerHTML = user.title
     
         row.append(column)
         column.append(a)
         a.append(img)
         a.append(Uname)
         a.append(title)
-        
-    }
+    });
 }
 
 
@@ -383,8 +422,7 @@ function createTemp() {
             age.innerHTML = 'Account age: '+ '<span class="age">' + getAge(dob) + ' years old </span>'
             bioH4.innerHTML = 'Famous For: '+ '<span>' + bio + '</span>'
             profileH4.innerHTML = 'Profile: ' + '<span> <a href='+link+' target="_blank" >'+link+'</a> <span>'
-            boostA.href = blink
-            boostA.innerHTML = '<button><h4>Boost</h4></button>'
+            boostA.innerHTML = '<a href='+ blink +' target="_blank"><button><h4>Boost</h4></button></a>'
         }
     });
 
@@ -404,8 +442,7 @@ function createTemp() {
             age.innerHTML = 'Account age: '+ '<span class="age">' + getAge(dob) + ' years old </span>'
             bioH4.innerHTML = 'Featured For: '+ '<span>' + bio + '</span>'
             profileH4.innerHTML = 'Profile: ' + '<span> <a href='+link+' target="_blank" >'+link+'</a> <span>'
-            boostA.href = blink
-            boostA.innerHTML = '<button><h4>Boost</h4></button>'
+            boostA.innerHTML = '<a href='+ blink +' target="_blank"><button><h4>Boost</h4></button></a>'
         }
     });
 
@@ -455,24 +492,3 @@ function getAge(DOB) {
     return age
 
 }
-
-
-
-
-/*
-
-            
-            
-        </div>
-
-        <a href="https://www.roblox.com/library/7418135368/Favorite-this-to-boost-Ammar-Hazem" target="_blank" rel="noopener noreferrer">
-            
-            <button>
-                <h4>Boost</h4>
-            </button>
-        </a>
-
-    </div>
-
-
-*/
