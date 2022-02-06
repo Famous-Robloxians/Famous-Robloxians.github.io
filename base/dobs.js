@@ -353,7 +353,7 @@ function addFeatured() {
         featuredAll = JSON.parse(featuredAll)
     }
 
-    document.querySelector('.featured > h4').innerHTML = 'Wanna be featured? DM me on Twitter'
+    document.querySelector('.featured > h4').innerHTML = 'Wanna be featured? <a href="https://docs.google.com/forms/d/e/1FAIpQLSdXFT8DRA8Mczifs6OdaVuJs2F6Dt7o2VxQkdMHc5Gfl2zWRg/viewform" target="_blank" rel="noopener noreferrer" style="color: red;">Click here</a>'
     var Frow = document.querySelector('.featured .row')
 
     for (let i = 0; i < Object.entries(featuredAll).length; i++) {
