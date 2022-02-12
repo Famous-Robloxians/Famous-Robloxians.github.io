@@ -71,7 +71,7 @@ popular = {
         boostlink: "https://www.roblox.com/catalog/8431257630/Favorite-this-to-boost-Cinderbelle"
     },
     Ammar_Hazem: {
-        name: "Ammar_Hanzem",
+        name: "Ammar_Hazem",
         title: "Roblox Dev",
         image: "../images/Ammar_Hazem.png",
         link: "../robloxians/Ammar_Hazem.html",
