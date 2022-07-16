@@ -16,3 +16,5 @@ document.getElementById('searchInput').addEventListener("keypress", function onE
         document.querySelector(".searchButton").click();
     }
 });
+
+

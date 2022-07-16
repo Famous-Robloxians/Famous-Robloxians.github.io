@@ -88,6 +88,7 @@ all = {
         image: "images/KonekoKittenWasTaken.png",
         link: "robloxians/KonekoKitten.html"
     },
+
     Mr_Booshot: {
         name: "Mr_Booshot",
         title: "YouTuber",
@@ -105,6 +106,12 @@ all = {
         title: "Journalists",
         image: "images/RTCRobloxTwitter.png",
         link: "robloxians/Roblox_RTC.html"
+    },
+    clem8965: {
+        name: 'clem8965',
+        title: 'Game Dev/Youtuber',
+        image: 'images/clem8965.png',
+        link: 'robloxians/clem8965.html'
     },
     SCR1PP3D: {
         name: "SCR1PP3D",
@@ -148,6 +155,7 @@ all = {
         image: "images/valphex.png",
         link: "featured/valphex.html",
     },
+
 }
 
 columnNum = 0;

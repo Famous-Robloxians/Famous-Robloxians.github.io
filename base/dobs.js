@@ -71,7 +71,7 @@ popular = {
         boostlink: "https://www.roblox.com/catalog/8431257630/Favorite-this-to-boost-Cinderbelle"
     },
     Ammar_Hazem: {
-        name: "Ammar_Hazem",
+        name: "Ammar_Hanzem",
         title: "Roblox Dev",
         image: "../images/Ammar_Hazem.png",
         link: "../robloxians/Ammar_Hazem.html",
@@ -160,7 +160,18 @@ popular = {
         rlink: "https://www.roblox.com/users/408858632/profile",
         bio: 'JavaCreates became famous for his movie animations on his <a href="https://www.youtube.com/c/JavaCreates" target="_blank" rel="noopener noreferrer">YouTube channel</a> that got him over 150k subscribers on YouTube.',
         boostlink: "https://www.roblox.com/library/8425943733/Favorite-this-to-boost-JavaCreates"
+    },
+    clem8965: {
+        name: 'clem8965',
+        title: 'Game Dev/Youtuber',
+        image: '../images/clem8965.png',
+        link: '../robloxians/clem8965.html',
+        dob: '06/06/2015',
+        rlink: 'https://www.roblox.com/users/86256991/profile',
+        bio: 'clem8965 became famous for his group called <a href="https://www.roblox.com/groups/9288210/StonksIndustry" target="_blank"> StonksIndustry </a> which has ganered over 100K+ members! Their Brookhaven Zombie Invasion currently has over 44.5M+ visits.',
+        boostlink: 'https://www.roblox.com/library/10243043004/Favorite-this-to-boost-clem8965'
     }
+
 }
 
 featured = {
@@ -206,7 +217,7 @@ featured = {
     },
     lilacgamingrblx: {
         name: "lilacgamingrblx",
-        title: "300 Subscribed YouTube Star",
+        title: "Youtuber",
         image: "../images/lilacgamingrblx.png",
         link: "../featured/lilacgamingrblx.html",
         dob: "11/16/2020",
@@ -279,9 +290,19 @@ else if (window.location.href.includes('featured/')) {
 else if (window.location.href.includes('featured.html')) {
     addFeatured()
 }
+else if (window.location.href.includes('index.html')) {
+    add3()
+}
 
 
 function add3() {
+
+    if (window.location.href.includes('index.html')) {
+        console.log('Hey! If you\'re reading this, take a screenshot and tweet #SCR1PP3D! :D')
+        popularAll = JSON.stringify(popular).replaceAll('../', '')
+        popular = JSON.parse(popularAll)
+    }
+
     var pop3 = []
     
     for (let i = 0; i < 3; i++) {
