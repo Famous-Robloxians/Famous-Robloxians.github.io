@@ -155,6 +155,12 @@ all = {
         image: "images/valphex.png",
         link: "featured/valphex.html",
     },
+    clem8965: {
+        name: 'clem8965',
+        title: 'Game Dev/Youtuber',
+        image: 'images/clem8965.png',
+        link: 'robloxians/clem8965.html',
+    }
 
 }
 
