@@ -170,6 +170,16 @@ popular = {
         rlink: 'https://www.roblox.com/users/86256991/profile',
         bio: 'clem8965 became famous for his group called <a href="https://www.roblox.com/groups/9288210/StonksIndustry" target="_blank"> StonksIndustry </a> which has ganered over 100K+ members! Their Brookhaven Zombie Invasion currently has over 44.5M+ visits.',
         boostlink: 'https://www.roblox.com/library/10243043004/Favorite-this-to-boost-clem8965'
+    },
+    $1CoaI: {
+        name: '1CoaI',
+        title: 'Game Dev',
+        image: '../images/1CoaI.png',
+        link: '../robloxians/1CoaI.html',
+        dob: '11/29/2017',
+        rlink: 'https://www.roblox.com/users/451049939/profile',
+        bio: '1CoaI became famous for his popular games and group, <a href="https://www.roblox.com/groups/4928618/Sarcastic-Studios"  target="_blank"> Sarcastic Studios </a> which has over 450K+ members',
+        boostlink: 'https://www.roblox.com/library/10255515704/Favorite-this-to-boost-1CoaI'
     }
 
 }
@@ -452,7 +462,13 @@ function createTemp() {
     var boostA = document.createElement('a')
 
     Object.entries(popular).forEach(user => {
-        if (user.includes(nameM)) {
+        var username = user;
+
+        if (user.toString().startsWith('$')) {
+            var username = username.toString().replace('$', '')
+        }
+
+        if (username.includes(nameM)) {
             var name = user[1].name;
             var link = user[1].rlink;
             var image = user[1].image;

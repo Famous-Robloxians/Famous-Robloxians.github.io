@@ -160,6 +160,12 @@ all = {
         title: 'Game Dev/Youtuber',
         image: 'images/clem8965.png',
         link: 'robloxians/clem8965.html',
+    },
+    $1CoaI: {
+        name: '1CoaI',
+        title: 'Game Dev',
+        image: 'images/1CoaI.png',
+        link: 'robloxians/1CoaI.html',
     }
 
 }
