@@ -269,6 +269,26 @@ for (let i = 0; i < Object.keys(popular).length; i++) {
 
 }
 
+for (let i = 0; i < Object.keys(featured).length; i++) {
+    var arr = featured[Object.keys(featured)[i]];
+
+
+    var ugh = arr.dob.split('/')
+    var month = ugh[0]
+    var day = ugh[1]
+    var year = ugh[2]
+
+    if (month<10 && !month.startsWith('0')) {
+        ugh[0] = '0'+month;
+    }
+    if (day < 10 && !day.startsWith('0')) {
+        ugh[1] = '0'+day
+    }
+
+    arr.dob = (ugh[0] + '/' + ugh[1] + '/' + year)
+
+}
+
 
 function shuffle(array) {
     let currentIndex = array.length,  randomIndex;
@@ -535,6 +555,7 @@ function checkBirthday() {
     if (mm < 10) mm = '0' + mm;
     
     const formattedToday = mm + '/' + dd;
+    
     popularAll = JSON.stringify(popular).replaceAll('../', '')
     popular = JSON.parse(popularAll)
 
@@ -543,6 +564,49 @@ function checkBirthday() {
         var dob = popular[Object.keys(popular)[i]].dob;
         var dob = dob.substr(0, dob.lastIndexOf("/"));
         var username = popular[Object.keys(popular)[i]].name
+        
+        if (dob == formattedToday) {
+
+           
+
+            document.querySelector('.birthdays').innerHTML = `
+            
+            <h2>Today's Birthdays</h2>
+            <div class="row"></div>
+        `
+
+            var column = document.createElement('div')
+            column.classList.add('column')
+        
+            var a = document.createElement('a')
+            var img = document.createElement('img')
+            var Uname = document.createElement('p')
+            var title = document.createElement('h5')
+        
+            a.href = arr.link
+            img.src = arr.image
+            Uname.innerHTML = arr.name
+            title.innerHTML = arr.title
+        
+            document.querySelector('.birthdays .row').append(column)
+            column.append(a)
+            a.append(img)
+            a.append(Uname)
+            a.append(title)
+
+            console.log('It\'s '+ username + '\'s birthday today!')
+        }
+    
+    }
+
+    featuredAll = JSON.stringify(featured).replaceAll('../', '')
+    featured = JSON.parse(featuredAll)
+
+    for (let i = 0; i < Object.keys(featured).length; i++) {
+        var arr = featured[Object.keys(featured)[i]]
+        var dob = featured[Object.keys(featured)[i]].dob;
+        var dob = dob.substr(0, dob.lastIndexOf("/"));
+        var username = featured[Object.keys(featured)[i]].name
         
         if (dob == formattedToday) {
 
