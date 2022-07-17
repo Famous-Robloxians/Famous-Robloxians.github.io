@@ -67,7 +67,7 @@ popular = {
         link: "../robloxians/Cinderbelle.html",
         dob: "3/5/2013",
         rlink: "https://www.roblox.com/users/39193858/profile",
-        bio: 'Cinderbelle became famous due to her <a href="https://www.youtube.com/c/IBellaYT/" target="_blank" rel="noopener noreferrer">YouTube channel</a> . where she posts funny videos.',
+        bio: 'Cinderbelle became famous due to her <a href="https://www.youtube.com/c/IBellaYT/" target="_blank" rel="noopener noreferrer">YouTube channel</a> where she posts funny videos.',
         boostlink: "https://www.roblox.com/catalog/8431257630/Favorite-this-to-boost-Cinderbelle"
     },
     Ammar_Hazem: {
@@ -248,6 +248,28 @@ featured = {
 }
 
 
+
+for (let i = 0; i < Object.keys(popular).length; i++) {
+    var arr = popular[Object.keys(popular)[i]];
+
+
+    var ugh = arr.dob.split('/')
+    var month = ugh[0]
+    var day = ugh[1]
+    var year = ugh[2]
+
+    if (month<10 && !month.startsWith('0')) {
+        ugh[0] = '0'+month;
+    }
+    if (day < 10 && !day.startsWith('0')) {
+        ugh[1] = '0'+day
+    }
+
+    arr.dob = (ugh[0] + '/' + ugh[1] + '/' + year)
+
+}
+
+
 function shuffle(array) {
     let currentIndex = array.length,  randomIndex;
     while (currentIndex != 0) {
@@ -274,25 +296,7 @@ var Uname = document.createElement('p')
 var title = document.createElement('h5')
 var row = document.querySelector('.row')
 
-if (window.location.href.includes('popular.html')) {
-    addAll()
-}
-else if (window.location.href.includes('robloxians/')) {
-    add3()
-    addFeatured()
-    createTemp()
-}
-else if (window.location.href.includes('featured/')) {
-    add3()
-    addFeatured()
-    createTemp()
-}
-else if (window.location.href.includes('featured.html')) {
-    addFeatured()
-}
-else if (window.location.href.includes('index.html')) {
-    add3()
-}
+
 
 
 function add3() {
@@ -433,6 +437,10 @@ function createTemp() {
             var link = user[1].rlink;
             var image = user[1].image;
             var dob = user[1].dob;
+
+
+
+            
             var bio = user[1].bio;
             var blink = user[1].boostlink
 
@@ -512,4 +520,87 @@ function getAge(DOB) {
     }
     return age
 
+}
+
+
+
+
+function checkBirthday() {
+    const today = new Date();
+    const yyyy = today.getFullYear();
+    let mm = today.getMonth() + 1; // Months start at 0!
+    let dd = today.getDate();
+    
+    if (dd < 10) dd = '0' + dd;
+    if (mm < 10) mm = '0' + mm;
+    
+    const formattedToday = mm + '/' + dd;
+    popularAll = JSON.stringify(popular).replaceAll('../', '')
+    popular = JSON.parse(popularAll)
+
+    for (let i = 0; i < Object.keys(popular).length; i++) {
+        var arr = popular[Object.keys(popular)[i]]
+        var dob = popular[Object.keys(popular)[i]].dob;
+        var dob = dob.substr(0, dob.lastIndexOf("/"));
+        var username = popular[Object.keys(popular)[i]].name
+        
+        if (dob == formattedToday) {
+
+           
+
+            document.querySelector('.birthdays').innerHTML = `
+            
+            <h2>Today's Birthdays</h2>
+            <div class="row"></div>
+        `
+
+            var column = document.createElement('div')
+            column.classList.add('column')
+        
+            var a = document.createElement('a')
+            var img = document.createElement('img')
+            var Uname = document.createElement('p')
+            var title = document.createElement('h5')
+        
+            a.href = arr.link
+            img.src = arr.image
+            Uname.innerHTML = arr.name
+            title.innerHTML = arr.title
+        
+            document.querySelector('.birthdays .row').append(column)
+            column.append(a)
+            a.append(img)
+            a.append(Uname)
+            a.append(title)
+
+            console.log('It\'s '+ username + '\'s birthday today!')
+        }
+    
+    }
+    
+    
+}
+
+
+
+if (window.location.href.includes('popular.html')) {
+    addAll()
+}
+else if (window.location.href.includes('robloxians/')) {
+    add3()
+    addFeatured()
+    createTemp()
+}
+else if (window.location.href.includes('featured/')) {
+    add3()
+    addFeatured()
+    createTemp()
+}
+else if (window.location.href.includes('featured.html')) {
+    addFeatured()
+}
+else if (window.location.href.includes('index.html') || window.location.href == "https://famous-robloxians.github.io/") {
+    add3()
+    checkBirthday()
+    addFeatured()
 }
