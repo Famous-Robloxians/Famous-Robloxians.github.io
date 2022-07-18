@@ -87,7 +87,7 @@ popular = {
         link: '../robloxians/Chizeled_YT.html',
         dob: '4/5/2018',
         rlink: 'https://www.roblox.com/users/565264495/profile',
-        bio: 'Chizeled_YT became famous for his entertaining Roblox videos on his <a href="https://www.youtube.com/c/Chizeled" target="_blank">Youtube channel </a>which have ganered him over 250K+ subscribers.',
+        bio: 'Chizeled_YT became famous for his entertaining Roblox videos on his <a href="https://www.youtube.com/c/Chizeled" target="_blank">Youtube channel </a>which have garnered him over 250K+ subscribers.',
         boostlink: 'https://www.roblox.com/library/10270765272/Favorite-this-to-boost-Chizeled-YT'
     },
     Mr_Booshot: {
