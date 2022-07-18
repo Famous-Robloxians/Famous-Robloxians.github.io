@@ -28,6 +28,12 @@ all = {
         image: "images/Funnehcake.png",
         link: "robloxians/Funnehcake.html",
     },
+    itsakeila: {
+        name: 'itsakeila',
+        title: 'Youtuber',
+        image: 'images/itsakeila.png',
+        link: 'robloxians/itsakeila.html'
+    },
     mrflimflam: {
         name: "mrflimflam",
         title: "YouTuber",

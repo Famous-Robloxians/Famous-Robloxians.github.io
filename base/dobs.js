@@ -1,4 +1,14 @@
 popular = {
+    mrflimflam: {
+        name: "mrflimflam",
+        title: "YouTuber",
+        image: "../images/mrflimflam.png",
+        link: "../robloxians/mrflimflam.html",
+        dob: "7/10/2017",
+        rlink: "https://www.roblox.com/users/339310190/profile",
+        bio: 'mrflimflam became famous after his viral videos on his <a href="https://www.youtube.com/c/flamingo" target="_blank" rel="noopener noreferrer">YouTube channel</a> called Flamingo. His comedic videos about using admin commands on various ROBLOX experiences garnered him over 9 million subscribers.',
+        boostlink: "https://www.roblox.com/library/7402036273/Favorite-this-to-boost-mrflimflam"
+    },
     lisagaming_YT: {
         name: "lisagaming_YT",
         title: "YouTuber",
@@ -20,15 +30,15 @@ popular = {
         bio: 'Funnehcake became famous for her <a href="https://youtube.com/user/itsfunneh" target="_blank" rel="noopener noreferrer">YouTube channel</a> (where she goes by the name ItsFunneh) which has over 8M+ subscribers.', 
         boostlink: "https://www.roblox.com/library/8734976046/Favorite-this-to-boost-Funnehcake"
     },
-    mrflimflam: {
-        name: "mrflimflam",
-        title: "YouTuber",
-        image: "../images/mrflimflam.png",
-        link: "../robloxians/mrflimflam.html",
-        dob: "7/10/2017",
-        rlink: "https://www.roblox.com/users/339310190/profile",
-        bio: 'mrflimflam became famous after his viral videos on his <a href="https://www.youtube.com/c/flamingo" target="_blank" rel="noopener noreferrer">YouTube channel</a> called Flamingo. His comedic videos about using admin commands on various ROBLOX experiences garnered him over 9 million subscribers.',
-        boostlink: "https://www.roblox.com/library/7402036273/Favorite-this-to-boost-mrflimflam"
+    itsakeila: {
+        name: 'itsakeila',
+        title: 'Youtuber',
+        image: '../images/itsakeila.png',
+        link: '../robloxians/itsakeila.html',
+        dob: '7/20/2018',
+        rlink: 'https://www.roblox.com/users/683334889/profile',
+        bio: 'itsakeila became famous for her popular <a href="https://www.youtube.com/c/ItsAkeila/videos" target="_blank">bloxburg videos</a> which got her channel over 1M subscribers.',
+        boostlink: 'https://www.roblox.com/library/10272180200/Favorite-this-to-boost-itsakeila'
     },
     Roblox_RTC: {
         name: "Roblox_RTC",
