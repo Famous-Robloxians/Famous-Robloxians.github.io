@@ -113,6 +113,12 @@ all = {
         image: "images/RTCRobloxTwitter.png",
         link: "robloxians/Roblox_RTC.html"
     },
+    moshipitchy: {
+        name: 'moshipitchy',
+        title: 'Youtuber',
+        image: 'images/moshipitchy.png',
+        link: 'robloxians/moshipitchy.html'
+    },
     clem8965: {
         name: 'clem8965',
         title: 'Game Dev/Youtuber',

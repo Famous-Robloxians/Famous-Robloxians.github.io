@@ -100,6 +100,16 @@ popular = {
         bio: 'Chizeled_YT became famous for his entertaining Roblox videos on his <a href="https://www.youtube.com/c/Chizeled" target="_blank">Youtube channel </a>which have garnered him over 250K+ subscribers.',
         boostlink: 'https://www.roblox.com/library/10270765272/Favorite-this-to-boost-Chizeled-YT'
     },
+    moshipitchy: {
+        name: 'moshipitchy',
+        title: 'Youtuber',
+        image: '../images/moshipitchy.png',
+        link: '../robloxians/moshipitchy.html',
+        dob: '3/3/2019',
+        rlink: 'https://www.roblox.com/users/988994035/profile',
+        bio: 'moshipitchy became famous after her <a href="https://www.youtube.com/c/moshipitchy" target="_blank">Youtube channel</a> where she posts videos on the Roblox game Royale High got over 25K+ subscribers.',
+        boostlink: 'https://www.roblox.com/library/10272379876/Favorite-this-to-boost'
+    },
     Mr_Booshot: {
         name: "Mr_Booshot",
         title: "YouTuber",
