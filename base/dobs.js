@@ -71,14 +71,24 @@ popular = {
         boostlink: "https://www.roblox.com/catalog/8431257630/Favorite-this-to-boost-Cinderbelle"
     },
     Ammar_Hazem: {
-        name: "Ammar_Hanzem",
-        title: "Roblox Dev",
+        name: "Ammar_Hazem",
+        title: "Game Dev",
         image: "../images/Ammar_Hazem.png",
         link: "../robloxians/Ammar_Hazem.html",
         dob: "12/12/2020",
         rlink: "https://www.roblox.com/users/2209137140/profile",
         bio: "Ammar_Hazem became famous after getting over 8 million place visits on his <a href=\"https://www.roblox.com/users/2209137140/profile\" target=\"_blank\" rel=\"noopener noreferrer\">Roblox Account</a> that also has over 10k followers.", 
         boostlink: "https://www.roblox.com/library/7418135368/Favorite-this-to-boost-Ammar-Hazem"
+    },
+    Chizeled_YT: {
+        name: 'Chizeled_YT',
+        title: 'Youtuber',
+        image: '../images/Chizeled_YT.png',
+        link: '../robloxians/Chizeled_YT.html',
+        dob: '4/5/2018',
+        rlink: 'https://www.roblox.com/users/565264495/profile',
+        bio: 'Chizeled_YT became famous for his entertaining Roblox videos on his <a href="https://www.youtube.com/c/Chizeled" target="_blank">Youtube channel </a>which have ganered him over 250K+ subscribers.',
+        boostlink: 'https://www.roblox.com/library/10270765272/Favorite-this-to-boost-Chizeled-YT'
     },
     Mr_Booshot: {
         name: "Mr_Booshot",
@@ -180,7 +190,8 @@ popular = {
         rlink: 'https://www.roblox.com/users/451049939/profile',
         bio: '1CoaI became famous for his popular games and group, <a href="https://www.roblox.com/groups/4928618/Sarcastic-Studios"  target="_blank"> Sarcastic Studios </a> which has over 450K+ members',
         boostlink: 'https://www.roblox.com/library/10255515704/Favorite-this-to-boost-1CoaI'
-    }
+    },
+    
 
 }
 
@@ -312,6 +323,12 @@ function shuffle(array) {
     return array;
   }
 
+
+function careers(searchTerm) {
+    window.open('../search.html?q=' + searchTerm, "_self");
+}
+
+
 columnNum = 0;
 
 
@@ -339,10 +356,21 @@ function add3() {
 
     var pop3 = []
     
-    for (let i = 0; i < 3; i++) {
-        var newPop = shuffle(Object.entries(popular))[i]
-        pop3[i] = newPop;
+    function newPopular() {
+        for (let i = 0; i < 3; i++) {
+            var newPop = shuffle(Object.entries(popular))[i]
+            pop3[i] = newPop;
+        }
     }
+    
+
+    newPopular()
+
+
+    if (pop3[0][0] == pop3[1][0] || pop3[0] == pop3[2][0] || pop3[1][0] == pop3[2][0]) {
+        newPopular()
+    }
+   
 
     pop3.forEach(user => {
         var user = user[1]
@@ -450,6 +478,7 @@ function createTemp() {
     a.setAttribute('target', '_blank')
 
     var img = document.createElement('img')
+    var titleA = document.createElement('h4')
 
     var stats = document.createElement('div')
     stats.classList.add('stats')
@@ -473,16 +502,14 @@ function createTemp() {
             var link = user[1].rlink;
             var image = user[1].image;
             var dob = user[1].dob;
-
-
-
-            
+            var title = user[1].title;
             var bio = user[1].bio;
             var blink = user[1].boostlink
 
             h1.innerHTML = name
             a.href = link
             img.src = image
+            titleA.innerHTML = '<br> See more <a href="javascript:void(0);" onclick="careers(\''+title+'\')">'+title+'s</a>'
             bdayH4.innerHTML = 'Birthday: '+ '<span>' + dob +'</span>'
             age.innerHTML = 'Account age: '+ '<span class="age">' + getAge(dob) + ' years old </span>'
             bioH4.innerHTML = 'Famous For: '+ '<span>' + bio + '</span>'
@@ -533,6 +560,7 @@ function createTemp() {
     card.append(h1)
     card.append(a)
     a.append(img)
+    card.append(titleA)
     card.append(stats)
     stats.append(bdayH4)
     stats.append(age)
@@ -663,6 +691,7 @@ function checkBirthday() {
 
 
 
+
 if (window.location.href.includes('popular.html')) {
     addAll()
 }
@@ -684,3 +713,4 @@ else if (window.location.href.includes('index.html') || window.location.href == 
     checkBirthday()
     addFeatured()
 }
+

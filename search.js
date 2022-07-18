@@ -11,8 +11,8 @@ document.title = searchTerm + ' | Famous Robloxians';
 
 all = {
     Ammar_Hazem: {
-        name: "Ammar_Hanzem",
-        title: "Roblox Dev",
+        name: "Ammar_Hazem",
+        title: "Game Dev",
         image: "images/Ammar_Hazem.png",
         link: "robloxians/Ammar_Hazem.html"
     },
@@ -113,6 +113,18 @@ all = {
         image: 'images/clem8965.png',
         link: 'robloxians/clem8965.html'
     },
+    $1CoaI: {
+        name: '1CoaI',
+        title: 'Game Dev',
+        image: 'images/1CoaI.png',
+        link: 'robloxians/1CoaI.html',
+    },
+    Chizeled_YT: {
+        name: 'Chizeled_YT',
+        title: 'Youtuber',
+        image: 'images/Chizeled_YT.png',
+        link: 'robloxians/Chizeled_YT.html'
+    },
     SCR1PP3D: {
         name: "SCR1PP3D",
         title: "Software Developer",
@@ -155,18 +167,7 @@ all = {
         image: "images/valphex.png",
         link: "featured/valphex.html",
     },
-    clem8965: {
-        name: 'clem8965',
-        title: 'Game Dev/Youtuber',
-        image: 'images/clem8965.png',
-        link: 'robloxians/clem8965.html',
-    },
-    $1CoaI: {
-        name: '1CoaI',
-        title: 'Game Dev',
-        image: 'images/1CoaI.png',
-        link: 'robloxians/1CoaI.html',
-    }
+   
 
 }
 
@@ -218,10 +219,12 @@ var allContent = document.querySelector('.allContent').children;
 
 var column = document.querySelectorAll('.allContent .column')
 
+var searchIn = searchTerm.replace('%20', ' ')
+
 for (i = 0; i < column.length; i++) {
-    if (!column[i].textContent.toLowerCase().includes(searchTerm.toLowerCase())) {
+    if (!column[i].textContent.toLowerCase().includes(searchIn.toLowerCase())) {
         column[i].remove();
     }
 }
 
-document.getElementById('searchInput').value = searchTerm;
+document.getElementById('searchInput').value = searchIn;

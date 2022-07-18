@@ -17,4 +17,3 @@ function search() {
     window.open('../search.html?q=' + searchTerm, "_self");
 
 }
-

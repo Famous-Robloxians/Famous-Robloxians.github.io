@@ -43,7 +43,7 @@ popular = {
     },
     Ammar_Hazem: {
         name: "Ammar_Hanzem",
-        title: "Roblox Dev",
+        title: "Game Dev",
         image: "../images/Ammar_Hazem.png",
         link: "../robloxians/Ammar_Hazem.html"
     },
@@ -124,7 +124,7 @@ popularAll = {
     },
     Ammar_Hazem: {
         name: "Ammar_Hanzem",
-        title: "Roblox Dev",
+        title: "Game Dev",
         image: "images/Ammar_Hazem.png",
         link: "robloxians/Ammar_Hazem.html"
     },
