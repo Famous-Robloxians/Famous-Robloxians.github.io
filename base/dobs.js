@@ -110,6 +110,16 @@ popular = {
         bio: 'moshipitchy became famous after her <a href="https://www.youtube.com/c/moshipitchy" target="_blank">Youtube channel</a> where she posts videos on the Roblox game Royale High got over 25K+ subscribers.',
         boostlink: 'https://www.roblox.com/library/10272379876/Favorite-this-to-boost'
     },
+    perhapseb: {
+        name: 'perhapseb',
+        title: 'Game Dev',
+        image: '../images/perhapseb.png',
+        link: '../robloxians/perhapseb.html',
+        dob: '2/15/2016',
+        rlink: 'https://www.roblox.com/users/109637909/profile/',
+        bio: 'perhapseb became famous for creating the popular game <a href="https://www.roblox.com/games/8919650008/Find-The-Pop-Tarts-75" target="_blank"> Find the Pop Tarts! </a> which has over 3.5M+ visits. perhapseb is also the owner of the roblox group <a href="https://www.roblox.com/groups/8938953/Perhaps-Studios#!/about" target="_blank">Perhaps Studios</a> which has over 113K+ members.',
+        boostlink: 'https://www.roblox.com/library/10278183735/Favorite-this-to-boost-perhapseb'
+    },
     Mr_Booshot: {
         name: "Mr_Booshot",
         title: "YouTuber",
