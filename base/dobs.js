@@ -60,6 +60,16 @@ popular = {
         bio: 'MyUsernamesThis became famous after their roblox music videos went viral on <a href="https://www.youtube.com/c/MyUsernamesThis/videos" target="_blank" rel="noopener noreferrer">their channel.</a>',
         boostlink: "https://www.roblox.com/library/8421307746/Favorite-this-to-boost-MyUsernamesThis"
     },
+    haz3mn: {
+        name: 'haz3mn',
+        title: 'Game Dev',
+        image: '../images/haz3mn.png',
+        link: '../robloxians/haz3mn.html',
+        dob: '8/12/2016',
+        rlink: 'https://www.roblox.com/users/151848836/profile/',
+        bio: 'haz3mn became famous for creating the popular roblox game <a href="https://www.roblox.com/games/8737602449/PLS-DONATE" target="_blank">PLS DONATE</a> which has over 210M+ visits.',
+        boostlink: 'https://www.roblox.com/library/10278566727/Favorite-this-to-boost-haz3mn'
+    },
     KonekoKitten: {
         name: "KonekoKitten",
         title: "YouTuber",
