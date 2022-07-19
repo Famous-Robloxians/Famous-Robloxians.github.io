@@ -160,6 +160,16 @@ popular = {
         bio: 'Coble3D became famous for being a talented Modeler, Programmer and UI/UX Designer, he posts his <a href="https://twitter.com/Coble3D" target="_blank" rel="noopener noreferrer">Twitter profile</a> with over 12K followers. ',
         boostlink: "https://www.roblox.com/library/8681677738/Favorite-this-to-boost-Coble3D"
     },
+    DatBrian: {
+        name: 'DatBrian',
+        title: 'Youtuber',
+        image: '../images/DatBrian.png',
+        link: '../robloxians/DatBrian.html',
+        dob: '4/24/2016',
+        rlink: 'https://www.roblox.com/users/122673807/profile',
+        bio: 'DatBrian became famous for his <a href="https://www.youtube.com/c/DatBrian" target="_blank">Youtube Channel</a> which has over 200K+ subscribers.',
+        boostlink: 'https://www.roblox.com/library/10279336886/Favorite-this-to-boost-DatBrian'
+    },
     
     firstimpacts: {
         name: "firstimpacts",
@@ -729,8 +739,12 @@ function checkBirthday() {
     
 }
 
+function createAd() {
+    var ad = document.createElement('img')
+    ad.src = "ads/ad1.png"
 
-
+    document.querySelector('.content').append(ad)
+}
 
 if (window.location.href.includes('popular.html')) {
     addAll()

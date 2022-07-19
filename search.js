@@ -88,6 +88,12 @@ all = {
         image: "images/MyUsernamesThis.png",
         link: "robloxians/MyUsernamesThis.html"
     },
+    DatBrian: {
+        name: 'DatBrian',
+        title: 'Youtuber',
+        image: 'images/DatBrian.png',
+        link: 'robloxians/DatBrian.html',
+    },
     haz3mn: {
         name: 'haz3mn',
         title: 'Game Dev',
