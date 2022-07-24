@@ -5,7 +5,6 @@ searchAr = url.split("=");
 var searchTerm = searchAr[1];
 console.log(searchTerm)
 
-document.title = searchTerm + ' | Famous Robloxians';
 
 
 
@@ -93,6 +92,12 @@ all = {
         title: 'Youtuber',
         image: 'images/DatBrian.png',
         link: 'robloxians/DatBrian.html',
+    },
+    SOURLES: {
+        name: 'SOURLES',
+        title: 'Clothing Designer',
+        image: 'images/SOURLES.png',
+        link: 'robloxians/SOURLES.html',
     },
     haz3mn: {
         name: 'haz3mn',
@@ -258,3 +263,5 @@ for (i = 0; i < column.length; i++) {
 }
 
 document.getElementById('searchInput').value = searchIn;
+
+document.title = searchTerm + ' | Famous Robloxians';

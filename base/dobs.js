@@ -160,6 +160,16 @@ popular = {
         bio: 'Coble3D became famous for being a talented Modeler, Programmer and UI/UX Designer, he posts his <a href="https://twitter.com/Coble3D" target="_blank" rel="noopener noreferrer">Twitter profile</a> with over 12K followers. ',
         boostlink: "https://www.roblox.com/library/8681677738/Favorite-this-to-boost-Coble3D"
     },
+    SOURLES: {
+        name: 'SOURLES',
+        title: 'Clothing Designer',
+        image: '../images/SOURLES.png',
+        link: '../robloxians/SOURLES.html',
+        dob: '6/27/2017',
+        rlink: 'https://www.roblox.com/users/329868064/profile',
+        bio: 'SOURLES became famous for owning the popular group <a href="https://www.roblox.com/groups/7330443/SOURLES" target="_blank">SOURLES</a> where he makes aesthetic clothing. The group has over 12K+ members.',
+        boostlink: 'https://www.roblox.com/library/10338517744/Favorite-this-to-boost-SOURLES'
+    },
     DatBrian: {
         name: 'DatBrian',
         title: 'Youtuber',
