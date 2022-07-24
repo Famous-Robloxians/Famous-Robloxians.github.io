@@ -427,7 +427,7 @@ function add3() {
     newPopular()
 
 
-    if (pop3[0][0] == pop3[1][0] || pop3[0] == pop3[2][0] || pop3[1][0] == pop3[2][0]) {
+    if (pop3[0][0] == pop3[1][0] || pop3[0][0] == pop3[2][0] || pop3[1][0] == pop3[2][0]) {
         newPopular()
     }
    
