@@ -264,4 +264,4 @@ for (i = 0; i < column.length; i++) {
 
 document.getElementById('searchInput').value = searchIn;
 
-document.title = searchTerm + ' | Famous Robloxians';
+document.title = searchIn + 's | Famous Robloxians';
